@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+}
+h2 { text-align: center; margin-bottom: 15px; }
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+button[type="submit"] { background: #4CAF50; }
+button[type="button"] { background: #f44336; }
+.error { color: red; text-align: center; margin-bottom: 10px; min-height: 20px; }
+.result {
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 4px;
+    display: none; /* Скрыто по умолчанию */
+}
+.result p { margin: 5px 0; }
