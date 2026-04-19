@@ -39,6 +39,6 @@ button[type="button"] { background: #f44336; }
     background: #e8f5e9;
     padding: 10px;
     border-radius: 4px;
-    display: none; /* Скрыто по умолчанию */
+    display: none;
 }
 .result p { margin: 5px 0; }
